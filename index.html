@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Mini Project 4 Word Guess</title>
-   <link rel="stylesheet" href="./assets/css/styles.css"/>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project 4 Word Guess</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header><h1>Word Guess Game</h1></header>
+    <main>
+      <section class="scoreboard">
+      <div class="scoreboard__score">
+        Wins:<span
+          class="scoreboard__score__value scoreboard__score__value--wins"
+          >3</span
+        >
+      </div>
+      <div class="scoreboard__score">
+        Losses:<span
+          class="scoreboard__score__value scoreboard__score__value--losses"
+          >2</span
+          >
+      </div>
+      </section>
+      <section class="gameboard">
+         <div class="gameboard__timer">20</div>
+         <div class="gameboard__result">You Win! Yay!</div>
+         <div class="gameboard__display">a _ _ l _ s</div>
+      </section>
+      <section class="controls">
+         <button class="controls__playgame">Start Game</button>
+      </section>
+    </main>
 
-   <script src="assets/js/app.js"></script>/>
-</body>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
